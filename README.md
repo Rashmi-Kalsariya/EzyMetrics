@@ -15,7 +15,7 @@ Linting
 
 Installation
 
-# Step 1: Clone the Repository
+## Step 1: Clone the Repository
 
 First, you need to clone the project repository onto your local machine.
 Run the following command in your terminal:
@@ -23,7 +23,7 @@ Run the following command in your terminal:
 git clone <your-repo-url>
 cd <project-directory>
 
-# Step 2: Install Dependencies
+## Step 2: Install Dependencies
 
 Now, install all the required dependencies by running this command:
 npm install
@@ -31,7 +31,7 @@ This will download and set up all the necessary packages.
 
 ## Running the Project
 
-# Step 3: Start the Development Server
+## Step 3: Start the Development Server
 
 To run the project locally, use the following command to start the development server:
 
@@ -40,7 +40,7 @@ npm run dev
 By default, the server will run on http://localhost:5173/, but Vite may pick another port if that one is occupied. You’ll see the URL in the terminal.
 Building the Project
 
-# Step 4: Build for Production
+## Step 4: Build for Production
 
 When you are ready to create a production build, use this command:
 
@@ -48,7 +48,7 @@ npm run build
 This will generate the production files in the dist folder.
 Previewing the Build
 
-# Step 5: Preview the Production Build
+## Step 5: Preview the Production Build
 
 To view the production build locally, use the following command:
 
@@ -56,7 +56,7 @@ npm run preview
 It will start a local static server to preview the build.
 Linting
 
-# Step 6: Run Linter
+## Step 6: Run Linter
 
 To maintain code quality, run the linter using this command:
 
