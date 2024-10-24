@@ -41,8 +41,8 @@ const generateLabels = (count) => {
 };
 
 const Analytics = () => {
-  const [dataPoints] = useState(generateRandomData(200, 30, 100)); // 200 data points between 30 and 100
-  const labels = generateLabels(50); // Labels for 200 days
+  const [dataPoints] = useState(generateRandomData(200, 30, 100)); 
+  const labels = generateLabels(10); 
 
   const data = {
     labels: labels,

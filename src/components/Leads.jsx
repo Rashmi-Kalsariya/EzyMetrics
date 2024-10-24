@@ -23,7 +23,7 @@ const generateRandomLeads = (count) => {
 
 const Leads = () => {
   const [selectedLead, setSelectedLead] = useState(null);
-  const leads = generateRandomLeads(50); // Generate 200 leads
+  const leads = generateRandomLeads(10); 
 
   // CSV Data
   const csvData = [
