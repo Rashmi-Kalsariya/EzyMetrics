@@ -3,10 +3,6 @@
 # Project Name
 Brief introduction of the project.
 
-<<<<<<< HEAD
-
-Currently, two official plugins are available:
-=======
 # Table of Contents
 
 Installation
@@ -72,7 +68,6 @@ This project is built using Vite and React.
 It uses react-router-dom for routing, chart.js for data visualization, and other dependencies as listed in the package.json file.
 The entry point of the project is the index.html file located in the root directory, and React components are located in the src folder.
 This structure will make your README file easy to read and well-organized for anyone using your project. Just replace <your-repo-url> with the actual repository URL when you write the file.
->>>>>>> e498435bee81d5e291a88c6884b6ced23d4b03b8
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
