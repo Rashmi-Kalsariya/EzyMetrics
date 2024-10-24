@@ -40,7 +40,7 @@ npm run dev
 By default, the server will run on http://localhost:5173/, but Vite may pick another port if that one is occupied. You’ll see the URL in the terminal.
 Building the Project
 
-## Step 4: Build for Production
+# Step 4: Build for Production
 
 When you are ready to create a production build, use this command:
 
