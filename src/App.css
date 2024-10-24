@@ -1,0 +1,226 @@
+/* General App Styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.App {
+  display: flex;
+  min-height: 100vh;
+  background-color: #121212;
+}
+
+/* Sticky Sidebar */
+.sidebar {
+  background-color: #1c1f2e;
+  color: #fff;
+  padding: 20px;
+  width: 240px;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+  overflow-y: auto; /* Enable scrolling if the content overflows */
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin-bottom: 20px;
+}
+
+.sidebar nav ul li a {
+  color: #b0bec5;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 12px;
+  display: block;
+  border-radius: 8px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.sidebar nav ul li a:hover {
+  background-color: #2a2e43;
+  color: #fff;
+}
+
+.sidebar nav ul li a.active {
+  background-color: #00acc1;
+  color: #fff;
+}
+
+/* Main Content Area */
+main {
+  flex: 1;
+  padding: 40px;
+  background-color: #1a1b28;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #e0f7fa;
+}
+
+button {
+  transition: all 0.2s ease;
+}
+
+/* Table Styling */
+.leads-section table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #232431;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.leads-section table th,
+.leads-section table td {
+  padding: 14px 20px;
+  text-align: left;
+  border-bottom: 1px solid #2f3041;
+}
+
+.leads-section table th {
+  background-color: #00acc1;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.leads-section table td {
+  color: #e0e0e0;
+}
+
+.leads-section button {
+  padding: 10px 15px;
+  background-color: #26c6da;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.leads-section button:hover {
+  background-color: #00acc1;
+}
+
+/* Modal Styling */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #292a3a;
+  padding: 35px;
+  border-radius: 10px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.modal-content button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #00acc1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.modal-content button:hover {
+  background-color: #00838f;
+}
+
+/* Analytics Section */
+.analytics-section {
+  margin-top: 30px;
+}
+
+.analytics-section h2 {
+  font-size: 24px;
+  color: #26c6da;
+}
+
+/* Reports Section */
+.reports-section {
+  margin-top: 30px;
+}
+
+.reports-section button {
+  padding: 12px 20px;
+  background-color: #26c6da;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.reports-section button:hover {
+  background-color: #00acc1;
+}
+
+.reports-section .csv-link {
+  padding: 12px 20px;
+  background-color: #4dd0e1;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.reports-section .csv-link:hover {
+  background-color: #00bcd4;
+}
+
+.btn-download {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #26c6da;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.btn-download:hover {
+  background-color: #00acc1;
+}
